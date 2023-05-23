@@ -1,0 +1,16 @@
+{
+    "app":[
+        {
+            "name":"hbos-people-counter-service",
+            "script":"/dist/server.js",
+            "watch":["dist"],
+            "ignore_watch":["/dist/opencv/people_count.csv"],
+            "env": {
+                "PORT": 4000,
+                "NODE_ENV": "development"
+            }
+
+        }
+    ]
+}
+  
